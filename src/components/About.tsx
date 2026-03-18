@@ -1,10 +1,16 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <section id="about">
       <div className="about-grid">
         <div className="about-img">
-          <span className="about-initials">DK</span>
-          <span className="about-loc">📍 Porto, Portugal</span>
+          <Image
+            src="/danielbatista.jpeg"
+            alt="Daniel Khaleb"
+            fill
+            style={{ objectFit: "cover" }}
+          />
         </div>
         <div className="about-text">
           <p className="section-label">About Me</p>

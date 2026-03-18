@@ -66,9 +66,6 @@ section { padding: 6rem 3rem; }
 #about { background: var(--white); }
 .about-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 5rem; align-items: center; max-width: 1100px; margin: 0 auto; }
 .about-img { width: 100%; aspect-ratio: 4/5; border-radius: 32px 32px 32px 6px; background: linear-gradient(160deg, var(--lavender), var(--blush), var(--sage)); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.6rem; overflow: hidden; position: relative; }
-.about-img::after { content: ''; position: absolute; bottom: -1px; right: -1px; width: 38%; height: 38%; background: var(--white); border-radius: 32px 0 0 0; }
-.about-initials { font-family: var(--font-lora), 'Lora', serif; font-size: 4rem; font-weight: 600; color: rgba(107,79,122,0.3); position: relative; z-index: 1; }
-.about-loc { font-size: 0.82rem; color: rgba(107,79,122,0.5); font-weight: 400; letter-spacing: 0.04em; position: relative; z-index: 1; }
 .about-text h2 { margin-bottom: 1.4rem; }
 .about-text p { font-size: 0.97rem; line-height: 1.82; color: var(--muted); font-weight: 300; margin-bottom: 1.1rem; }
 .about-text p strong { font-weight: 500; color: var(--ink); }
