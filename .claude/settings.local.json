@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(nvm list:*)",
+      "Read(//home/daniel/.nvm/versions/node/**)"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`About matches snapshot 1`] = `
+<div>
+  <section
+    id="about"
+  >
+    <div
+      class="about-grid"
+    >
+      <div
+        class="about-img"
+      >
+        <img
+          alt="Daniel Khaleb"
+          data-nimg="fill"
+          decoding="async"
+          loading="lazy"
+          sizes="100vw"
+          src="/_next/image?url=%2Fdanielbatista.jpeg&w=3840&q=75"
+          srcset="/_next/image?url=%2Fdanielbatista.jpeg&w=640&q=75 640w, /_next/image?url=%2Fdanielbatista.jpeg&w=750&q=75 750w, /_next/image?url=%2Fdanielbatista.jpeg&w=828&q=75 828w, /_next/image?url=%2Fdanielbatista.jpeg&w=1080&q=75 1080w, /_next/image?url=%2Fdanielbatista.jpeg&w=1200&q=75 1200w, /_next/image?url=%2Fdanielbatista.jpeg&w=1920&q=75 1920w, /_next/image?url=%2Fdanielbatista.jpeg&w=2048&q=75 2048w, /_next/image?url=%2Fdanielbatista.jpeg&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+        />
+      </div>
+      <div
+        class="about-text"
+      >
+        <p
+          class="section-label"
+        >
+          About Me
+        </p>
+        <h2
+          class="section-title"
+        >
+          Enthusiastic learner. Pragmatic builder.
+        </h2>
+        <p>
+          I'm a Full-Stack Developer with roots since 2013, comfortable across back-end, front-end, mobile and DevOps. I thrive on exploring new technologies and turning them into real, scalable products.
+        </p>
+        <p>
+          Currently at 
+          <strong>
+            bolttech
+          </strong>
+           in Porto, I co-founded the Frontend-Core team — responsible for design systems, micro-frontend architecture and developer experience across the whole group. I led the migration from Polymer to React and the adoption of Figma tokens for multi-brand theming.
+        </p>
+        <p>
+          I've worked across Brazil and Portugal, at startups and enterprise alike — always chasing good problems to solve.
+        </p>
+        <p>
+          Lately I've been deep into 
+          <strong>
+            AI-assisted development
+          </strong>
+           — using tools like 
+          <strong>
+            Claude
+          </strong>
+           and 
+          <strong>
+            Kiro
+          </strong>
+           to move faster and think bigger. I embrace vibe coding as a legitimate craft: knowing when to let AI accelerate and when to stay in control.
+        </p>
+        <div
+          class="about-highlights"
+        >
+          <div
+            class="highlight"
+          >
+            <span
+              class="highlight-num"
+            >
+              12+
+            </span>
+            <span
+              class="highlight-label"
+            >
+              Years coding
+            </span>
+          </div>
+          <div
+            class="highlight"
+          >
+            <span
+              class="highlight-num"
+            >
+              8
+            </span>
+            <span
+              class="highlight-label"
+            >
+              Companies
+            </span>
+          </div>
+          <div
+            class="highlight"
+          >
+            <span
+              class="highlight-num"
+            >
+              10+
+            </span>
+            <span
+              class="highlight-label"
+            >
+              Tech stacks
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

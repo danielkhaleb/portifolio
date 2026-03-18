@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Contact matches snapshot 1`] = `
+<div>
+  <section
+    id="contact"
+  >
+    <div
+      class="contact-inner"
+    >
+      <div>
+        <p
+          class="section-label"
+        >
+          Get In Touch
+        </p>
+        <h2
+          class="section-title"
+        >
+          Let's work together
+        </h2>
+        <p
+          class="section-subtitle"
+        >
+          Open to new roles, interesting projects, and good conversations. Based in Porto — available remotely worldwide.
+        </p>
+        <div
+          class="contact-links"
+        >
+          <a
+            class="contact-link"
+            href="mailto:daniel.khaleb@gmail.com"
+          >
+            <span
+              class="contact-icon"
+            >
+              ✉
+            </span>
+            daniel.khaleb@gmail.com
+          </a>
+          <a
+            class="contact-link"
+            href="tel:+351910524245"
+          >
+            <span
+              class="contact-icon"
+            >
+              ✆
+            </span>
+            +351 910 524 245
+          </a>
+          <a
+            class="contact-link"
+            href="https://www.linkedin.com/in/daniel-khaleb-batista-1b238597/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span
+              class="contact-icon"
+            >
+              ◈
+            </span>
+            linkedin.com/in/daniel-khaleb-batista
+          </a>
+        </div>
+      </div>
+      <form
+        class="contact-form"
+      >
+        <input
+          name="name"
+          placeholder="Your name"
+          required=""
+          type="text"
+        />
+        <input
+          name="email"
+          placeholder="Email address"
+          required=""
+          type="email"
+        />
+        <textarea
+          name="message"
+          placeholder="Tell me about your project or opportunity..."
+        />
+        <button
+          type="submit"
+        >
+          Send Message ✦
+        </button>
+      </form>
+    </div>
+  </section>
+</div>
+`;

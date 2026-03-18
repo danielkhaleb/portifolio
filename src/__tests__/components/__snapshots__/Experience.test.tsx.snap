@@ -1,0 +1,404 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Experience matches snapshot 1`] = `
+<div>
+  <section
+    id="experience"
+  >
+    <div
+      class="experience-inner"
+    >
+      <div
+        class="exp-header"
+      >
+        <p
+          class="section-label"
+        >
+          Career
+        </p>
+        <h2
+          class="section-title"
+        >
+          Work experience
+        </h2>
+        <p
+          class="section-subtitle"
+        >
+          Over a decade building products across insurtech, fintech, logistics and e-commerce.
+        </p>
+      </div>
+      <div
+        class="timeline"
+      >
+        <div
+          class="timeline-item"
+        >
+          <div>
+            <p
+              class="timeline-period"
+            >
+              May 2021 — Present
+            </p>
+            <p
+              class="timeline-company"
+            >
+              bolttech · Porto
+            </p>
+          </div>
+          <div>
+            <h3
+              class="timeline-role"
+            >
+              Full-Stack Developer
+              <span
+                class="current-badge"
+              >
+                Current
+              </span>
+            </h3>
+            <p
+              class="timeline-desc"
+            >
+              Started on microservices across Node.js, Go and Python. Led the Polymer → React migration, then co-founded the Frontend-Core team. Built a multi-brand design system using Figma tokens and led a CMS migration to Builder.io.
+            </p>
+            <div
+              class="timeline-stack"
+            >
+              <span
+                class="stack-chip"
+              >
+                React
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Next.js
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Node.js
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Go
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Python
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Builder.io
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Figma Tokens
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Monorepo
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="timeline-item"
+        >
+          <div>
+            <p
+              class="timeline-period"
+            >
+              Jan 2020 — May 2021
+            </p>
+            <p
+              class="timeline-company"
+            >
+              ateliware · Brasil
+            </p>
+          </div>
+          <div>
+            <h3
+              class="timeline-role"
+            >
+              Software Engineer
+            </h3>
+            <p
+              class="timeline-desc"
+            >
+              Multiple projects: a queue-skip app for restaurants and a route-optimisation platform for truck drivers. Full JS stack across back-end, front-end and mobile.
+            </p>
+            <div
+              class="timeline-stack"
+            >
+              <span
+                class="stack-chip"
+              >
+                React
+              </span>
+              <span
+                class="stack-chip"
+              >
+                React Native
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Node.js
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Ruby on Rails
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Gatsby
+              </span>
+              <span
+                class="stack-chip"
+              >
+                PostgreSQL
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Docker
+              </span>
+              <span
+                class="stack-chip"
+              >
+                AWS
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="timeline-item"
+        >
+          <div>
+            <p
+              class="timeline-period"
+            >
+              Apr 2019 — Nov 2019
+            </p>
+            <p
+              class="timeline-company"
+            >
+              Sisand · Brasil
+            </p>
+          </div>
+          <div>
+            <h3
+              class="timeline-role"
+            >
+              Software Developer
+            </h3>
+            <p
+              class="timeline-desc"
+            >
+              Built an auto parts e-commerce for dealerships from scratch, including CI/CD on Bitbucket and deployment on GCP.
+            </p>
+            <div
+              class="timeline-stack"
+            >
+              <span
+                class="stack-chip"
+              >
+                Node.js
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Vue.js
+              </span>
+              <span
+                class="stack-chip"
+              >
+                PostgreSQL
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Docker
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Google Cloud
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="timeline-item"
+        >
+          <div>
+            <p
+              class="timeline-period"
+            >
+              Jul 2017 — Mar 2019
+            </p>
+            <p
+              class="timeline-company"
+            >
+              ateliware · Brasil
+            </p>
+          </div>
+          <div>
+            <h3
+              class="timeline-role"
+            >
+              Software Engineer
+            </h3>
+            <p
+              class="timeline-desc"
+            >
+              Developed an online insurance policy issuer for an international security company — back office, profile management, and the policy calculation engine.
+            </p>
+            <div
+              class="timeline-stack"
+            >
+              <span
+                class="stack-chip"
+              >
+                .NET
+              </span>
+              <span
+                class="stack-chip"
+              >
+                SQL Server
+              </span>
+              <span
+                class="stack-chip"
+              >
+                React
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Backbone
+              </span>
+              <span
+                class="stack-chip"
+              >
+                CoffeeScript
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="timeline-item"
+        >
+          <div>
+            <p
+              class="timeline-period"
+            >
+              Jan 2015 — Feb 2017
+            </p>
+            <p
+              class="timeline-company"
+            >
+              Bornlogic · Brasil
+            </p>
+          </div>
+          <div>
+            <h3
+              class="timeline-role"
+            >
+              Full-Stack Developer
+            </h3>
+            <p
+              class="timeline-desc"
+            >
+              Developed and maintained an advertising platform — new features and bug fixes across the full stack.
+            </p>
+            <div
+              class="timeline-stack"
+            >
+              <span
+                class="stack-chip"
+              >
+                C# / MVC 5
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Web API
+              </span>
+              <span
+                class="stack-chip"
+              >
+                AngularJS
+              </span>
+              <span
+                class="stack-chip"
+              >
+                SQL Server
+              </span>
+              <span
+                class="stack-chip"
+              >
+                Azure
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="timeline-item"
+        >
+          <div>
+            <p
+              class="timeline-period"
+            >
+              Jun 2013 — Dec 2014
+            </p>
+            <p
+              class="timeline-company"
+            >
+              Employer RH · Brasil
+            </p>
+          </div>
+          <div>
+            <h3
+              class="timeline-role"
+            >
+              Software Developer
+            </h3>
+            <p
+              class="timeline-desc"
+            >
+              First professional role. Internal system management — billing, financial and HSBC debit card generation systems.
+            </p>
+            <div
+              class="timeline-stack"
+            >
+              <span
+                class="stack-chip"
+              >
+                C#
+              </span>
+              <span
+                class="stack-chip"
+              >
+                .NET Web Forms
+              </span>
+              <span
+                class="stack-chip"
+              >
+                SQL Server
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Hero matches snapshot 1`] = `
+<div>
+  <section
+    id="hero"
+  >
+    <div
+      class="hero-text"
+    >
+      <span
+        class="hero-tag"
+      >
+        ✦ Open to new opportunities
+      </span>
+      <h1>
+        Full-Stack Developer building things that 
+        <em>
+          scale.
+        </em>
+      </h1>
+      <p>
+        Hi, I'm Daniel — a full-stack developer based in Porto, Portugal with 12+ years of experience across Node.js, React, .NET, React Native and more. I specialise in frontend architecture, design systems, and shipping software that lasts.
+      </p>
+      <div
+        class="hero-cta"
+      >
+        <a
+          class="btn-primary"
+          href="#experience"
+        >
+          See My Experience
+        </a>
+        <a
+          class="btn-secondary"
+          href="#contact"
+        >
+          Get in Touch
+        </a>
+      </div>
+    </div>
+    <div
+      class="hero-visual"
+    >
+      <div
+        class="blob-card"
+      >
+        <div
+          class="blob-bg"
+        />
+        <div
+          class="blob-content"
+        >
+          <div
+            class="code-snippet"
+          >
+            <span
+              class="kw"
+            >
+              const
+            </span>
+             daniel = {
+            <br />
+              stack: 
+            <span
+              class="str"
+            >
+              "full-stack"
+            </span>
+            ,
+            <br />
+              years: 
+            <span
+              class="str"
+            >
+              12
+            </span>
+            ,
+            <br />
+              location: 
+            <span
+              class="str"
+            >
+              "Porto 🇵🇹"
+            </span>
+            ,
+            <br />
+              loves: 
+            <span
+              class="fn"
+            >
+              buildAndShip
+            </span>
+            ()
+            <br />
+            };
+          </div>
+          <span
+            class="floating-tag"
+            style="top: 28px; right: -12px;"
+          >
+            Node.js ✦ React
+          </span>
+          <span
+            class="floating-tag"
+            style="bottom: 38px; left: -18px; animation-delay: 1.5s;"
+          >
+            Porto, Portugal
+          </span>
+          <span
+            class="floating-tag"
+            style="bottom: 105px; right: -28px; animation-delay: 1s; color: var(--accent2);"
+          >
+            React Native
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
