@@ -24,6 +24,12 @@ export default function About() {
             I&apos;ve worked across Brazil and Portugal, at startups and enterprise alike —
             always chasing good problems to solve.
           </p>
+          <p>
+            Lately I&apos;ve been deep into <strong>AI-assisted development</strong> — using
+            tools like <strong>Claude</strong> and <strong>Kiro</strong> to move faster and
+            think bigger. I embrace vibe coding as a legitimate craft: knowing when to let AI
+            accelerate and when to stay in control.
+          </p>
           <div className="about-highlights">
             <div className="highlight">
               <span className="highlight-num">12+</span>

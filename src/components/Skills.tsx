@@ -35,6 +35,15 @@ const categories = [
       { name: "Azure", pct: 60 },
     ],
   },
+  {
+    label: "AI & Vibe Coding",
+    items: [
+      { name: "Claude", pct: 90 },
+      { name: "Kiro", pct: 80 },
+      { name: "Vibe Coding", pct: 88 },
+      { name: "Prompt Engineering", pct: 85 },
+    ],
+  },
 ];
 
 export default function Skills() {
@@ -45,7 +54,7 @@ export default function Skills() {
           <p className="section-label">Toolkit</p>
           <h2 className="section-title">Skills &amp; technologies</h2>
           <p className="section-subtitle">
-            A broad stack built over 12+ years — from enterprise .NET to modern React architecture.
+            A broad stack built over 12+ years — from enterprise .NET to modern React architecture and AI-assisted development.
           </p>
         </div>
         <div className="skills-grid">
