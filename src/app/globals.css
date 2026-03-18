@@ -129,6 +129,7 @@ footer { background: #201E1B; color: rgba(250,248,243,0.35); text-align: center;
 /* Responsive */
 @media (max-width: 900px) {
   nav { padding: 1rem 1.5rem; }
+  .nav-logo { display: none; }
   .nav-links { gap: 1.5rem; }
   #hero { grid-template-columns: 1fr; padding: 8rem 1.5rem 3rem; }
   .hero-visual { display: none; }
