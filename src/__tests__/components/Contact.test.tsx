@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from "@testing-library/react";
+import { render, screen, waitFor, fireEvent } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import Contact from "@/components/Contact";
 
@@ -71,6 +71,20 @@ describe("Contact", () => {
     await waitFor(() =>
       expect(screen.getByText(/failed to send email/i)).toBeInTheDocument()
     );
+  });
+
+  it("shows inline error for invalid email without calling fetch", async () => {
+    render(<Contact />);
+    const form = screen.getByPlaceholderText("Your name").closest("form")!;
+
+    // Use fireEvent.submit to bypass native type="email" validation in jsdom
+    fireEvent.change(screen.getByPlaceholderText("Your name"), { target: { value: "John" } });
+    fireEvent.change(screen.getByPlaceholderText("Email address"), { target: { value: "not-an-email" } });
+    fireEvent.change(screen.getByPlaceholderText(/tell me about/i), { target: { value: "Hello!" } });
+    fireEvent.submit(form);
+
+    await waitFor(() => expect(screen.getByText(/valid email/i)).toBeInTheDocument());
+    expect(mockFetch).not.toHaveBeenCalled();
   });
 
   it("matches snapshot", () => {

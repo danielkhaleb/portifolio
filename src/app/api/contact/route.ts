@@ -1,11 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+import { isValidEmail } from "@/lib/validateEmail";
 
 export async function POST(req: NextRequest) {
   const { name, email, message } = await req.json();
 
   if (!name || !email || !message) {
     return NextResponse.json({ error: "All fields are required." }, { status: 400 });
+  }
+
+  if (!isValidEmail(email)) {
+    return NextResponse.json({ error: "Invalid email address." }, { status: 400 });
   }
 
   const transporter = nodemailer.createTransport({

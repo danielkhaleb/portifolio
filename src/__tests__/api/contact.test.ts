@@ -73,6 +73,16 @@ describe("POST /api/contact", () => {
     expect(sendMail).not.toHaveBeenCalled();
   });
 
+  it("returns 400 when email format is invalid", async () => {
+    const req = makeRequest({ name: "John", email: "not-an-email", message: "Hello!" });
+    const res = await POST(req);
+    const json = await res.json();
+
+    expect(res.status).toBe(400);
+    expect(json.error).toBe("Invalid email address.");
+    expect(sendMail).not.toHaveBeenCalled();
+  });
+
   it("returns 500 when nodemailer throws", async () => {
     sendMail.mockRejectedValueOnce(new Error("SMTP error"));
 

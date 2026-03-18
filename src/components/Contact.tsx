@@ -1,19 +1,30 @@
 "use client";
 
 import { useState } from "react";
+import { isValidEmail } from "@/lib/validateEmail";
 
 type Status = "idle" | "loading" | "success" | "error";
 
 export default function Contact() {
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState("");
+  const [emailError, setEmailError] = useState("");
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    setEmailError("");
+
+    const form = e.currentTarget;
+    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+
+    if (!isValidEmail(email)) {
+      setEmailError("Please enter a valid email address.");
+      return;
+    }
+
     setStatus("loading");
     setErrorMsg("");
 
-    const form = e.currentTarget;
     const data = {
       name: (form.elements.namedItem("name") as HTMLInputElement).value,
       email: (form.elements.namedItem("email") as HTMLInputElement).value,
@@ -74,6 +85,7 @@ export default function Contact() {
         <form className="contact-form" onSubmit={handleSubmit}>
           <input type="text" name="name" placeholder="Your name" required />
           <input type="email" name="email" placeholder="Email address" required />
+          {emailError && <p className="form-error">{emailError}</p>}
           <textarea name="message" placeholder="Tell me about your project or opportunity..." />
 
           <button type="submit" disabled={status === "loading"}>
